@@ -113,3 +113,8 @@ img {
   max-width: 40rem;
 }
 
+.swot {
+  border: 1px solid blue;
+  width: 50vw;
+  height: 50vh;
+}
