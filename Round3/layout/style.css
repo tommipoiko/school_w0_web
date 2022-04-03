@@ -11,15 +11,47 @@ html {
   font-size: 10px;
 }
 
-div {
+header {
+  box-sizing: content-box;
+  width: 100vw;
+  height: 10vh;
   float: left;
-  border: 1px solid blue;
-  width: 50vw;
-  height: 50vh;
+  border: 1px solid gray;
+}
+
+#navigation li {
+  list-style: none;
+  float: left;
+  padding-right: 2vw;
+}
+
+aside {
+  box-sizing: content-box;
+  width: 20vw;
+  height: 30vh;
+  float: right;
+  border: 1px solid gray;
+}
+
+article {
+  box-sizing: border-box;
+  width: 70vw;
+  float: left;
+  border: 1px solid gray;
+}
+
+footer {
+  box-sizing: content-box;
+  width: 100vw;
+  height: 10vh;
+  float: left;
+  border: 1px solid gray;
 }
 
 body {
   color: #606c76;
+  padding: 1rem 2rem 2rem;
+  max-width: 90rem;
   font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em;
   font-weight: 300;
