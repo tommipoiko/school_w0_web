@@ -1,0 +1,44 @@
+.container {
+  max-height: 50%;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content-container > .swot:nth-child(even) {
+  border-color: blue;
+  border-style: groove;
+  margin: 1px;
+  width: 60vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-container > .swot:nth-child(odd) {
+  border-color: blue;
+  border-style: groove;
+  margin: 1px;
+  width: 20vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swot {
+  border-color: blue;
+  border-style: groove;
+  margin: 1px;
+  width: 50;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,16 @@
+.container {
+  min-height: 600px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.swot {
+  border-color: blue;
+  border-style: groove;
+  width: 45vw;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
