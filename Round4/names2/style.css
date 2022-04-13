@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main{
+    display: inline-flex;
+    flex-flow: column wrap;
+}
+
+nav{
+    visibility: hidden;
+}
+nav a{
+    visibility: hidden;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+
+
+}
+
+th{
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+}
+
+
+
+tbody{
+    display: block;
+    height: 20%;       /* Just for the demo          */
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: hidden;  /* Hide the horizontal scroll */
+}
+
+
+h1{
+    justify-content: center;
+    flex: 1 1 100%;
+    background-color: bisque;
+    text-align: center;
+}
+
+h2{
+
+}
+
+
+footer{
+    background-color: bisque;
+    float: bottom;
+}
+
+header{
+    background-color: bisque;
+}
