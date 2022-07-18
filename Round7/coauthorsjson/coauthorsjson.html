@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/force.css">
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+</head>
+
+<body>
+
+  <form>
+    <label for="q">Search term:</label>
+    <input id="q" name="q" type="text" value="javascript%20functional">
+    <button id="search">Search</button>
+  </form>
+
+  <script src="js/force.js"></script>
+  <script src="js/coauthorsjson.js"></script>
+  <script>
+    const search = async (event) => {
+      event.preventDefault();
+      rmSVG();
+      const q = document.querySelector("#q").value;
+      await constructSociogram(q);
+    };
+    const form = document.querySelector("form");
+    form.addEventListener('submit', search, false);
+  </script>
+</body>
+
+</html>
